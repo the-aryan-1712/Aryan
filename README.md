@@ -1,12 +1,16 @@
-CSV Files -
+CSV Files -                                                                                                                                                                                                            
 
-train.csv- for training data initially using KNN
-test.csv - for testing the model.
+train.csv- for training data initially using KNN                                                                                                                                                                      
+test.csv - for testing the model.                                                                                                                                                            
 sample_submission_given- already provided us with the real outcome of the test data
+
 sample_submission_output- predicted data by model
 
-gradio_train2.csv- train file with 5 features to train the model in gradio and making GUI interface
+gradio_train2.csv- train file with 5 features to train the model in gradio and making GUI interface                                                                                                                  
 gradio_test.csv- 5 features file for testing the gradio model
+
+
+
 
 
 
