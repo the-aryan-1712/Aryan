@@ -41,7 +41,8 @@ Normalization/Scaling:
 Normalize or scale the selected features.
 
 Determine Number of Clusters (k):
-Experiment with different values of k to find an optimal number of clusters. Techniques like the elbow method or silhouette score can help.
+Experiment with different values of k to find an optimal number of clusters. 
+Techniques like the elbow method or silhouette score can help.
 I used the elbow method so as to find best value of k(clusters)
 
 Apply K-Means Clustering:
@@ -52,10 +53,15 @@ Analyzed the cluster and which feature is dominating the most.
 Most common feature in a cluster was the saleprice of house. 
 </pre>
 <H3>3.Correlation between KNN and Clustering Results:</H3>
-<pre>KNN results predict the house prices with a good accuracy.On the other hand K-means collectivise the houses in 3 clusters which share a common property, which seems to be the house price in most of the cases while in some cases other features collectively take house in other cluster irrespective of being similar prices. 
+<pre>KNN results predict the house prices with a good accuracy.On the other hand K-means collectivise the houses 
+in 3 clusters which share a common property, which seems to be the house price in most of the cases while in 
+some cases other features collectively take house in other cluster irrespective of being similar prices.
+
 </pre>
 <pre>
 Suggested Areas for future exploration or improvement:
+By combining KNN for regression and k-means clustering, we can gain a comprehensive understanding of house price 
+trends and the factors that contribute to houses being grouped together. This integrated approach helps
+provide richer insights for decision-making in the real estate domain.
 
-By combining KNN for regression and k-means clustering, we can gain a comprehensive understanding of house price trends and the factors that contribute to houses being grouped together. This integrated approach helps provide richer insights for decision-making in the real estate domain.
 </pre>
