@@ -1,45 +1,40 @@
-CSV Files -                                                                                                                                                                                                            
-
-train.csv- for training data initially using KNN                                                                                                                                                                      
-test.csv - for testing the model.                                                                                                                                                            
+<H3>CSVFiles<H3>  
+<Pre>train.csv- for training data initially using KNN
+test.csv-for testing the model.                              
 sample_submission_given- already provided us with the real outcome of the test data
-
 sample_submission_output- predicted data by model
-
-gradio_train2.csv- train file with 5 features to train the model in gradio and making GUI interface                                                                                                                  
 gradio_test.csv- 5 features file for testing the gradio model
-
-
-
-
-
-
-1. K-Nearest Neighbors (KNN) for House Price Estimation:
+gradio_train2.csv- train file with 5 features to train the model in gradio and makingGUIinterface
+</Pre>
+<H2>Project Overview</H2>
+<H3>1. K-Nearest Neighbors (KNN) for House Price Estimation:</H3>
+<pre>
 Data Preparation:
 Load the house price dataset and inspect its structure.
 Identify features (attributes) and the target variable (house prices).
-
-Data Preprocessing:
+</pre>
+<pre>Data Preprocessing:
 Handle missing values, if any.
 Encode categorical variables and scale numerical features, especially if they have different scales.
-
-Train-Test Split:
+</pre>
+<pre>Train-Test Split:
 Split the dataset into training and testing sets.
+</pre>
 
-KNN Model Training:
+<pre>KNN Model Training:
 Implement and train a KNN regression model using the training set.
 Experiment with different values of k and choose the one that provides the best performance (e.g., using cross-validation).
+</pre>
 
-Model Evaluation:
+<pre>Model Evaluation:
 Evaluate the model's performance on the testing set using metrics like Root Mean Squared Error (RMSE).
-
-Insight and Observation:
+</pre>
+<pre>Insight and Observation:
 Analyze the features that contribute the most to the house price predictions.
 Identify any non-linear relationships or patterns that the KNN model captures.
-
-2. Clustering for Insight using K-Means:
-
-
+</pre>
+<H3>2. Clustering for Insight using K-Means:</H3>
+<pre>
 Choose relevant features for clustering (could include location, size, amenities, etc.).
 
 Normalization/Scaling:
@@ -53,24 +48,14 @@ Apply K-Means Clustering:
 Use the chosen k to apply k-means clustering on the dataset.
 
 Cluster Analysis:
-Analyze the characteristics of each cluster.
-Identify common features within each cluster.
-Insight and Observation:
+Analyzed the cluster and which feature is dominating the most.
+Most common feature in a cluster was the saleprice of house. 
+</pre>
+<H3>3.Correlation between KNN and Clustering Results:</H3>
+<pre>KNN results predict the house prices with a good accuracy.On the other hand K-means collectivise the houses in 3 clusters which share a common property, which seems to be the house price in most of the cases while in some cases other features collectively take house in other cluster irrespective of being similar prices. 
+</pre>
+<pre>
+Suggested Areas for future exploration or improvement:
 
-Gain insights into factors associated with houses of similar prices based on the clusters.
-Understand if certain clusters represent houses in specific locations, sizes, or with particular amenities.
-
-Correlation between KNN and Clustering Results:
-Compare the insights gained from KNN predictions and clustering. Are there common patterns or features that both methods highlight?
-
-Predicted House Price Trends:
-Summarize the predicted trends in house prices based on the KNN model.
-Discuss how clustering provides additional insights into the factors associated with houses of similar prices.
-
-Recommendations:
-Provide recommendations or actions based on the observed trends. For example, if certain features consistently influence house prices, this information can be valuable for real estate stakeholders.
-
-Limitations and Future Work:
-Discuss any limitations of the analysis.
-Suggest areas for future exploration or improvement.
-By combining KNN for regression and k-means clustering, you can gain a comprehensive understanding of house price trends and the factors that contribute to houses being grouped together. This integrated approach helps provide richer insights for decision-making in the real estate domain.
+By combining KNN for regression and k-means clustering, we can gain a comprehensive understanding of house price trends and the factors that contribute to houses being grouped together. This integrated approach helps provide richer insights for decision-making in the real estate domain.
+</pre>
